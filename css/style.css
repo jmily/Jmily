@@ -1,0 +1,36 @@
+body{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0; padding:0;}
+
+#top
+{     height:100vh;
+      background-image: url("../images/bg.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-position-y: 100%;
+}
+
+.jumbotron .overlay {
+    background-color: rgba(106, 34, 163, 0.2);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.75;
+    filter: alpha(opacity=85);
+    z-index: 2;
+}
+
+.jumbotron h1
+{
+    color:white; padding-top: 40vh; font-size: 63px;
+    border-bottom: 1px solid #FFFFFF;
+    display:inline-block;
+    font-weight: 700;
+}
+
+.jumbotron p
+{
+    color:white; font-size: 28px;
+}
